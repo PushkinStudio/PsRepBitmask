@@ -33,7 +33,7 @@ struct FRepBitmaskPair
 
 /** Struct for replication bool parameter as bitmask */
 USTRUCT(BlueprintType)
-struct FRepBitmask
+struct PSREPBITMASK_API FRepBitmask
 {
 public:
 	GENERATED_USTRUCT_BODY()
@@ -107,7 +107,7 @@ struct TStructOpsTypeTraits<FRepBitmask> : public TStructOpsTypeTraitsBase2<FRep
 
 /** Struct for index set replication as bitmask (max index = 63) */
 USTRUCT(BlueprintType)
-struct FBitmaskIndices
+struct PSREPBITMASK_API FBitmaskIndices
 {
 public:
 	GENERATED_USTRUCT_BODY()
